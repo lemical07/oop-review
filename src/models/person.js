@@ -16,11 +16,11 @@ export class Person {
         this.#email = email;
     }
 
-    get firstName() { return this.#firstName; }
-    get lastName() { return this.#lastName; }
-    get identificationType() { return this.#identificationType; }
-    get identificationNumber() { return this.#identificationNumber; }
-    get email() { return this.#email; }
+    get firstName() { return this.#firstName};
+    get lastName() { return this.#lastName};
+    get identificationType() { return this.#identificationType};
+    get identificationNumber() { return this.#identificationNumber};
+    get email() { return this.#email};
 
     getFullName() {
         return `${this.#firstName} ${this.#lastName}`;
