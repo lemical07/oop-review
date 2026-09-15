@@ -8,5 +8,5 @@ export class Teacher extends Person {
         this.#id = id;
     }
 
-    get id() { return this.#id; }
+    get id() { return this.#id };
 }
